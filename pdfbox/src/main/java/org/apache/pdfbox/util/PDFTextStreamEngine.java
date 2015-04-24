@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.pdfbox.text;
+package org.apache.pdfbox.util;
 
 import java.io.InputStream;
 import org.apache.commons.logging.Log;
@@ -29,8 +29,7 @@ import org.apache.pdfbox.pdmodel.font.PDType3Font;
 import org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState;
 
 import java.io.IOException;
-import org.apache.pdfbox.util.Matrix;
-import org.apache.pdfbox.util.Vector;
+
 import org.apache.pdfbox.contentstream.operator.DrawObject;
 import org.apache.pdfbox.contentstream.operator.state.Concatenate;
 import org.apache.pdfbox.contentstream.operator.state.Restore;
@@ -57,7 +56,7 @@ import org.apache.pdfbox.contentstream.operator.text.ShowText;
 /**
  * PDFStreamEngine subclass for advanced processing of text via TextPosition.
  *
- * @see org.apache.pdfbox.text.TextPosition
+ * @see TextPosition
  * @author Ben Litchfield
  * @author John Hewson
  */

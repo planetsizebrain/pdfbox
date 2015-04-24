@@ -14,13 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.pdfbox.text;
+package org.apache.pdfbox.util;
 
 import java.text.Normalizer;
 import java.util.HashMap;
 import java.util.Map;
 import org.apache.pdfbox.pdmodel.font.PDFont;
-import org.apache.pdfbox.util.Matrix;
 
 /**
  * This represents a string and a position on the screen of those characters.

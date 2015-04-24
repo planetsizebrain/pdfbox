@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.pdfbox.text;
+package org.apache.pdfbox.util;
 
 import java.io.IOException;
 import java.io.StringWriter;
@@ -40,7 +40,6 @@ import org.apache.pdfbox.pdmodel.common.PDRectangle;
 import org.apache.pdfbox.pdmodel.common.PDStream;
 import org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem;
 import org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDThreadBead;
-import org.apache.pdfbox.util.QuickSort;
 
 /**
  * This class will take a pdf document and strip out all of the text and ignore the
@@ -1857,6 +1856,10 @@ public class PDFTextStripper extends PDFTextStreamEngine
             wordPositions.add(text);
         }
         return lineBuilder;
+    }
+
+    public void setForceParsing(boolean forceParsingValue) {
+        // NO-OP to comply with old signature
     }
 
     /**
