@@ -19,6 +19,7 @@ package org.apache.pdfbox.pdmodel.interactive.action;
 import java.io.IOException;
 
 import org.apache.pdfbox.cos.COSDictionary;
+import org.apache.pdfbox.pdmodel.interactive.action.type.PDAction;
 import org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDDestination;
 
 /**

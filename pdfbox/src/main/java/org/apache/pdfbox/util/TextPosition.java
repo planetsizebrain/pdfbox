@@ -163,6 +163,18 @@ public final class TextPosition
     }
 
     /**
+     * HACK: compatibility with previous PDFBox version for Tika version in Liferay
+     *
+     * Return the string of characters stored in this object.
+     *
+     * @return The string on the screen.
+     */
+    public String getCharacter()
+    {
+        return getUnicode();
+    }
+
+    /**
      * Return the internal PDF character codes of the glyphs in this text.
      *
      * @return an array of internal PDF character codes

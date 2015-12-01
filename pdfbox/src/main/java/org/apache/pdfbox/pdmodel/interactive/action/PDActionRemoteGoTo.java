@@ -22,6 +22,7 @@ import org.apache.pdfbox.cos.COSBase;
 import org.apache.pdfbox.cos.COSDictionary;
 
 import org.apache.pdfbox.pdmodel.common.filespecification.PDFileSpecification;
+import org.apache.pdfbox.pdmodel.interactive.action.type.PDAction;
 
 /**
  * This represents a remote go-to action that can be executed in a PDF document.

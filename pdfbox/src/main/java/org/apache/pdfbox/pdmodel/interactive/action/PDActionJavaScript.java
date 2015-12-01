@@ -18,6 +18,7 @@ package org.apache.pdfbox.pdmodel.interactive.action;
 
 import org.apache.pdfbox.cos.COSDictionary;
 import org.apache.pdfbox.pdmodel.common.PDTextStream;
+import org.apache.pdfbox.pdmodel.interactive.action.type.PDAction;
 
 /**
  * This represents a JavaScript action.
